@@ -6,6 +6,8 @@ const app = express();
 const expressHbs = require('express-handlebars');
 const routers = require('./routes/rout');
 
+const bootstrap = require('bootstrap');
+
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.engine('hbs', expressHbs());
