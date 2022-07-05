@@ -1,0 +1,453 @@
+[
+    {
+        "simbolo": "H",
+        "nombre": "hidrogeno",
+        "tipo": "otros-no-metales"
+    },
+    {
+        "simbolo": "He",
+        "nombre": "helio",
+        "tipo": "gases-nobles"
+    },
+    {
+        "simbolo": "Li",
+        "nombre": "litio",
+        "tipo": "Alcalinos"
+    },
+    {
+        "simbolo": "Be",
+        "nombre": "berilio",
+        "tipo": "Alcalinoterreos"
+    },
+    {
+        "simbolo": "B",
+        "nombre": "boro",
+        "tipo": "metaloides"
+    },
+    {
+        "simbolo": "C",
+        "nombre": "carbono",
+        "tipo": "otros-no-metales"
+    },
+    {
+        "simbolo": "N",
+        "nombre": "nitrogeno",
+        "tipo": "otros-no-metales"
+    },
+    {
+        "simbolo": "O",
+        "nombre": "oxigeno",
+        "tipo": "otros-no-metales"
+    },
+    {
+        "simbolo": "F",
+        "nombre": "fluor",
+        "tipo": "halogenos"
+    },
+    {
+        "simbolo": "Ne",
+        "nombre": "neon",
+        "tipo": "gases-nobles"
+    },
+    {
+        "simbolo": "Na",
+        "nombre": "sodio",
+        "tipo": "Alcalinos"
+    },
+    {
+        "simbolo": "Mg",
+        "nombre": "magnesio",
+        "tipo": "Alcalinoterreos"
+    },
+    {
+        "simbolo": "Al",
+        "nombre": "aluminio",
+        "tipo": "otros-metales"
+    },
+    {
+        "simbolo": "Si",
+        "nombre": "silicio",
+        "tipo": "metaloides"
+    },
+    {
+        "simbolo": "P",
+        "nombre": "phosphoro",
+        "tipo": "otros-no-metales"
+    },
+    {
+        "simbolo": "S",
+        "nombre": "sodio",
+        "tipo": "otros-no-metales"
+    },
+    {
+        "simbolo": "Cl",
+        "nombre": "cloro",
+        "tipo": "halogenos"
+    },
+    {
+        "simbolo": "Ar",
+        "nombre": "argon",
+        "tipo": "gases-nobles"
+    },
+    {
+        "simbolo": "K",
+        "nombre": "potasio",
+        "tipo": "Alcalinos"
+    },
+    {
+        "simbolo": "Ca",
+        "nombre": "calcio",
+        "tipo": "Alcalinoterreos"
+    },
+    {
+        "simbolo": "Sc",
+        "nombre": "escandio",
+        "tipo": "metales-de-transicion"
+    },
+    {
+        "simbolo": "Ti",
+        "nombre": "titanio",
+        "tipo": "metales-de-transicion"
+    },
+    {
+        "simbolo": "V",
+        "nombre": "vibrio",
+        "tipo": "metales-de-transicion"
+    },
+    {
+        "simbolo": "Cr",
+        "nombre": "cromo",
+        "tipo": "metales-de-transicion"
+    },
+    {
+        "simbolo": "Mn",
+        "nombre": "manganeso",
+        "tipo": "metales-de-transicion"
+    },
+    {
+        "simbolo": "Fe",
+        "nombre": "hierro",
+        "tipo": "metales-de-transicion"
+    },
+    {
+        "simbolo": "Co",
+        "nombre": "cobre",
+        "tipo": "metales-de-transicion"
+    },
+    {
+        "simbolo": "Ni",
+        "nombre": "niquel",
+        "tipo": "metales-de-transicion"
+    },
+    {
+        "simbolo": "Cu",
+        "nombre": "cobre",
+        "tipo": "metales-de-transicion"
+    },
+    {
+        "simbolo": "Zn",
+        "nombre": "zinco",
+        "tipo": "metales-de-transicion"
+    },
+    {
+        "simbolo": "Ga",
+        "nombre": "galio",
+        "tipo": "otros-metales"
+    },
+    {
+        "simbolo": "Ge",
+        "nombre": "germanio",
+        "tipo": "metaloides"
+    },
+    {
+        "simbolo": "As",
+        "nombre": "arsenico",
+        "tipo": "metaloides"
+    },
+    {
+        "simbolo": "Se",
+        "nombre": "selenio",
+        "tipo": "otros-no-metales"
+    },
+    {
+        "simbolo": "Br",
+        "nombre": "bromo",
+        "tipo": "halogenos"
+    },
+    {
+        "simbolo": "Kr",
+        "nombre": "kripton",
+        "tipo": "gases-nobles"
+    },
+    {
+        "simbolo": "Rb",
+        "nombre": "rubidio",
+        "tipo": "Alcalinos"
+    },
+    {
+        "simbolo": "Sr",
+        "nombre": "estroncio",
+        "tipo": "Alcalinoterreos"
+    },
+    {
+        "simbolo": "Y",
+        "nombre": "iterbio",
+        "tipo": "metales-de-transicion"
+    },
+    {
+        "simbolo": "Zr",
+        "nombre": "zirconio",
+        "tipo": "metales-de-transicion"
+    },
+    {
+        "simbolo": "Nb",
+        "nombre": "niobio",
+        "tipo": "metales-de-transicion"
+    },
+    {
+        "simbolo": "Mo",
+        "nombre": "molibdeno",
+        "tipo": "metales-de-transicion"
+    },
+    {
+        "simbolo": "Tc",
+        "nombre": "téntico",
+        "tipo": "metales-de-transicion"
+    },
+    {
+        "simbolo": "Ru",
+        "nombre": "ruthenio",
+        "tipo": "metales-de-transicion"
+    },
+    {
+        "simbolo": "Rh",
+        "nombre": "rohaceite",
+        "tipo": "metales-de-transicion"
+    },
+    {
+        "simbolo": "Pd",
+        "nombre": "paladio",
+        "tipo": "metales-de-transicion"
+    },
+    {
+        "simbolo": "Ag",
+        "nombre": "plata",
+        "tipo": "metales-de-transicion"
+    },
+    {
+        "simbolo": "Cd",
+        "nombre": "cadmio",
+        "tipo": "metaleson"
+    },
+    {
+        "simbolo": "In",
+        "nombre": "indio",
+        "tipo": "otros-metales"
+    },
+    {
+        "simbolo": "Sn",
+        "nombre": "estanho",
+        "tipo": "otros-metales"
+    },
+    {
+        "simbolo": "Sb",
+        "nombre": "antimonio",
+        "tipo": "metaloides"
+    },
+    {
+        "simbolo": "Te",
+        "nombre": "telurio",
+        "tipo": "metaloides"
+    },
+    {
+        "simbolo": "I",
+        "nombre": "iodio",
+        "tipo": "halogenos"
+    },
+    {
+        "simbolo": "Xe",
+        "nombre": "xenon",
+        "tipo": "gases-nobles"
+    },
+    {
+        "simbolo": "Cs",
+        "nombre": "cesio",
+        "tipo": "Alcalinos"
+    },
+    {
+        "simbolo": "Ba",
+        "nombre": "basto",
+        "tipo": "Alcalinoterreos"
+    },
+    {
+        "simbolo": "La-Lu",
+        "nombre": "lantanios",
+        "tipo": "lantanios"
+    },
+    {
+        "simbolo": "Hf",
+        "nombre": "hafnio",
+        "tipo": "metales-de-transicion"
+    },
+    {
+        "simbolo": "Ta",
+        "nombre": "tantalio",
+        "tipo": "metales-de-transicion"
+    },
+    {
+        "simbolo": "W",
+        "nombre": "wolframio",
+        "tipo": "metales-de-transicion"
+    },
+    {
+        "simbolo": "Re",
+        "nombre": "renio",
+        "tipo": "metales-de-transicion"
+    },
+    {
+        "simbolo": "Os",
+        "nombre": "ósmio",
+        "tipo": "metales-de-transicion"
+    },
+    {
+        "simbolo": "Ir",
+        "nombre": "iridio",
+        "tipo": "metales-de-transicion"
+    },
+    {
+        "simbolo": "Pt",
+        "nombre": "platino",
+        "tipo": "metales-de-transicion"
+    },
+    {
+        "simbolo": "Au",
+        "nombre": "oro",
+        "tipo": "metales-de-transicion"
+    },
+    {
+        "simbolo": "Hg",
+        "nombre": "mercurio",
+        "tipo": "metales-de-transicion"
+    },
+    {
+        "simbolo": "Tl",
+        "nombre": "talto",
+        "tipo": "otros-metales"
+    },
+    {
+        "simbolo": "Pb",
+        "nombre": "plomo",
+        "tipo": "otros-metales"
+    },
+    {
+        "simbolo": "Bi",
+        "nombre": "bismuto",
+        "tipo": "otros-metales"
+    },
+    {
+        "simbolo": "Po",
+        "nombre": "polonio",
+        "tipo": "metaloides"
+    },
+    {
+        "simbolo": "At",
+        "nombre": "astato",
+        "tipo": "halogenos"
+    },
+    {
+        "simbolo": "Rn",
+        "nombre": "radón",
+        "tipo": "gases-nobles"
+    },
+    {
+        "simbolo": "Fr",
+        "nombre": "franco",
+        "tipo": "Alcalinos"
+    },
+    {
+        "simbolo": "Ra",
+        "nombre": "rádio",
+        "tipo": "Alcalinoterreos"
+    },
+    {
+        "simbolo": "Ac-Lr",
+        "nombre": "actinidos",
+        "tipo": "actinidos"
+    },
+    {
+        "simbolo": "Rf",
+        "nombre": "rutherfordio",
+        "tipo": "metales-de-transicion"
+    },
+    {
+        "simbolo": "Db",
+        "nombre": "dubnio",
+        "tipo": "metales-de-transicion"
+    },
+    {
+        "simbolo": "Sg",
+        "nombre": "selenio",
+        "tipo": "metales-de-transicion"
+    },
+    {
+        "simbolo": "Bh",
+        "nombre": "bohrio",
+        "tipo": "metales-de-transicion"
+    },
+    {
+        "simbolo": "Hs",
+        "nombre": "hassio",
+        "tipo": "metales-de-transicion"
+    },
+    {
+        "simbolo": "Mt",
+        "nombre": "meitnerio",
+        "tipo": "metales-de-transicion"
+    },
+    {
+        "simbolo": "Ds",
+        "nombre": "darmstácio",
+        "tipo": "metales-de-transicion"
+    },
+    {
+        "simbolo": "Rg",
+        "nombre": "roentgenio",
+        "tipo": "metales-de-transicion"
+    },
+    {
+        "simbolo": "Cn",
+        "nombre": "copernicio",
+        "tipo": "metales-de-transicion"
+    },
+    {
+        "simbolo": "Nh",
+        "nombre": "nihonio",
+        "tipo": "otros-metales"
+    },
+    {
+        "simbolo": "Fl",
+        "nombre": "flerovio",
+        "tipo": "otros-metales"
+    },
+    {
+        "simbolo": "Mc",
+        "nombre": "moscovio",
+        "tipo": "otros-metales"
+    },
+    {
+        "simbolo": "Lv",
+        "nombre": "livermorio",
+        "tipo": "otros-metales"
+    },
+    {
+        "simbolo": "Ts",   
+        "nombre": "tennessine",
+        "tipo": "halogenos"
+    },
+    {
+        "simbolo": "Og",
+        "nombre": "oganesson",
+        "tipo": "gases-nobles"
+    }
+]
+
