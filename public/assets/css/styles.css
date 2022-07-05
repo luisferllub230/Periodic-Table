@@ -1,4 +1,11 @@
+.container-css{
+  max-width: 960px;
+  margin: 0 auto;
+  background-color: darkslategrey;
+}
+
 .rectangle-blue{
+    display: flex;
     margin: 3px;
     padding: 2px;
     width: 100px;
