@@ -1,0 +1,8 @@
+.rectangle-blue{
+    margin: 3px;
+    padding: 2px;
+    width: 100px;
+    height: 200px;
+    background-color: rgb(140, 140, 141);
+    color: rgb(6, 8, 10);
+}

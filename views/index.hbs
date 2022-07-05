@@ -9,7 +9,18 @@
     <link rel="stylesheet" href="../assets/css/styles.css">
 </head>
 <body>
-    <h1 class="text-danger">hhhhhhhhhhhhhhhhhhhh</h1>
+    <div class="">
+        <ul class="">
+            {{#each list}}
+                <div class="rectangle-blue">
+                    <li>{{this.name}}</li>
+                    <li>{{this.price}}</li>
+                    <li>{{this.description}}</li>
+                </div>
+                <br>
+            {{/each}}
+        </ul>
+    </div>
 
     <script src="../assets/js/lib/bootstrap.min.js"></script>
 </body>
