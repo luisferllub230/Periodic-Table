@@ -18,13 +18,16 @@ h1{
     font-size: 20px;
 }
 h2{
-    font-size: 15px;
+    font-size: 10px;
 }
 h3{
-    font-size: 13px;
+    font-size: 8px;
 }
 h4{
-    font-size: 12px;
+    font-size: 5px;
+}
+h6{
+    font-size: 8px;
 }
 /*finished h1...h6*/
 
@@ -39,8 +42,8 @@ h4{
     display: flex;
     margin: 3px;
     padding: 3px;
-    width: 10%;
-    height: 100px;
+    width: 5%;
+    height: 75px;
     border: solid 1px #000;
     justify-content: center;
     flex-direction: column;
@@ -48,8 +51,3 @@ h4{
 /*finished container*/
 
 /*separator*/
-.separator{
-    width: 70%;
-    height: 100px;
-    background-color: #000;
-}

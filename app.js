@@ -9,7 +9,9 @@ const app = express();
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.engine('hbs', expressHbs({
-    helpers: periodicTable
+    helpers:{
+        periodicTable: periodicTable.separators
+    } 
 }));
 app.set('view engine','hbs');
 const viewPath = path.join(__dirname, 'views');
