@@ -1,14 +1,16 @@
 const express = require('express');
 const path = require('path');
+const expressHbs = require('express-handlebars');
+const routers = require('./routes/rout');
+const periodicTable = require('./helpers/hbs/periodicTableLogical');
 
 const app = express();
 
-const expressHbs = require('express-handlebars');
-const routers = require('./routes/rout');
-
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.engine('hbs', expressHbs());
+app.engine('hbs', expressHbs({
+    helpers: periodicTable
+}));
 app.set('view engine','hbs');
 const viewPath = path.join(__dirname, 'views');
 app.set('views',viewPath);

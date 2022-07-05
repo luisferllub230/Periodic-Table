@@ -9,17 +9,22 @@
     <link rel="stylesheet" href="../assets/css/styles.css">
 </head>
 <body>
-    <div class="container-css">
-        <ul class="">
-            {{#each list}}
-                <div class="rectangle-blue">
-                    <li>{{this.name}}</li>
-                    <li>{{this.price}}</li>
-                    <li>{{this.description}}</li>
+    <h1>Periodic Table Of Quinine Elements</h1>
+
+    <div class="container-flex">
+        {{#each list}}
+                <div class="inline">
+                    <h1>{{this.simbolo}}</h1>
+                    <h3>{{this.nombre}}</h3>
+                    <h4>{{this.tipo}}</h4>
                 </div>
-                <br>
-            {{/each}}
-        </ul>
+                {{#if separator}}
+                    <div class="separator"></div>
+                {{else}}
+
+                {{/if}}
+                
+        {{/each}}
     </div>
 
     <script src="../assets/js/lib/bootstrap.min.js"></script>
