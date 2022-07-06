@@ -15,7 +15,7 @@
             {{#each list as |symbol key|}}
                 <!--for empty value-->
                 {{#if (lookingForCharacter symbol)}}
-                    <div class="box-empty">
+                    <div class="grid-{{key}} box colorEmpty">
                         <div class="">
                             <h2>404</h2>
                         </div>
@@ -23,7 +23,6 @@
                 {{else}}
                     <div class="grid-{{key}} box">
                         <div class="">
-                            <h2>{{key}}</h2>
                             <h2>{{symbol}}</h2>
                         </div>
                     </div>
