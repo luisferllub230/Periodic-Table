@@ -1,53 +1,37 @@
-/*start edit all*/
 *{
-    margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    margin: 0;
+    color: aliceblue;
+    background-color: #040d18;
     font-family: 'Roboto', sans-serif;
 }
-/*finished edit all*/
 
-/*h1 ... h6*/
-h1,h2,h3,h4,h5,h6{
-    margin: 2px;
-    text-align: center;
-    position: relative;
-}
 h1{
-    text-transform: capitalize;
-    font-size: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #fff;
 }
-h2{
-    font-size: 10px;
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(18, 0fr);
 }
-h3{
-    font-size: 8px;
-}
-h4{
-    font-size: 5px;
-}
-h6{
-    font-size: 8px;
-}
-/*finished h1...h6*/
 
-/*containers*/
-.container-flex{
+.grid-0{
+    grid-column-start: 1;
+    grid-column-end: 18;
+}
+
+.grid-3, .grid-11{
+    grid-column-start: 2;
+    grid-column-end: 13;
+}
+
+.box{
+    width: 75px;
+    height: 75px;
+    background-color: #040d18;
+    border:solid 1px #d2ff09;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
 }
-.inline{
-    display: flex;
-    margin: 3px;
-    padding: 3px;
-    width: 5%;
-    height: 75px;
-    border: solid 1px #000;
-    justify-content: center;
-    flex-direction: column;
-}
-/*finished container*/
-
-/*separator*/
