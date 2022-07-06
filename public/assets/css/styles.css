@@ -1,3 +1,4 @@
+/*html*/
 body{
     padding: 0;
     margin: 0;
@@ -19,26 +20,29 @@ h1{
 h2{
     font-size: x-large;
 }
-.grid-container {
+
+/*css grid*/
+.grid-container{
   display: grid;
   grid-template-columns: repeat(18, 0fr);
+  grid-template-rows: repeat(18, 1fr);
+  row-gap: 2px;
+  column-gap: 2px;
 }
-
 .grid-0{
     grid-column-start: 1;
     grid-column-end: 18;
 }
-
 .grid-3, .grid-11{
     grid-column-start: 2;
     grid-column-end: 13;
 }
-
 .grid-90, .grid-105{
-    grid-column-start: 3;
-    grid-column-end: 4;
+    grid-column-start: 4;
+    grid-column-end: 5;
 }
 
+/*box*/
 .box{
     width: 75px;
     height: 75px;
@@ -48,8 +52,13 @@ h2{
     align-items: center;
 }
 
-/*colors*/
+.box-empty{
+    background-color: #303030;
+    width: 75px;
+    height: 75px;
+}
 
+/*colors*/
 /*others no metal */
 .grid-0, .grid-5, .grid-6, .grid-7, .grid-14, .grid-15, .grid-33{
     background-color: rgb(17, 252, 0);
