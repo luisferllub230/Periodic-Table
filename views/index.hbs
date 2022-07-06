@@ -14,20 +14,23 @@
 
         <div class="grid-container">
             {{#each list as |symbol key|}}
+                <!--for separation-->
                 {{#if (periodicTable symbol)}}
-                    <div class="grid-{{key}} box">
+                    <div class="grid-{{key}} box ">
                         <div class="box-inside">
-                            <h1>{{symbol}}</h1>
+                            <p>{{key}}</p>
+                            <h2>{{symbol}}</h2>
                         </div>
                     </div>
+                
                 {{else}}
-                    <div class="box">
+                    <div class="grid-{{key}} box ">
                         <div class="box-inside">
-                            <h1>{{symbol}}</h1>
+                            <p>{{key}}</p>
+                            <h2>{{symbol}}</h2>
                         </div>
                     </div>
                 {{/if}}
-                
             {{/each}}
         </div>
     </main>

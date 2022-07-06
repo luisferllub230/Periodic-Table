@@ -1,5 +1,4 @@
-const periodicTable = ["H","Be","Mg"];
-
+const periodicTable = ["H","Be","Mg","La","Ac"];
 
 const separators = value1 => {
     for (const i in periodicTable) {
@@ -8,6 +7,5 @@ const separators = value1 => {
         }
     }
 };
-
 
 exports.separators = separators;
