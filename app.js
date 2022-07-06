@@ -10,7 +10,8 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.engine('hbs', expressHbs({
     helpers:{
-        periodicTable: periodicTable.separators,
+        lookingForCharacter: periodicTable.lookingForCharacter,
+        noLookingForCharacter: periodicTable.noLookingForCharacter
     } 
 }));
 app.set('view engine','hbs');

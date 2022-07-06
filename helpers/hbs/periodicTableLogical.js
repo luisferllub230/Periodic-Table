@@ -1,11 +1,20 @@
-const periodicTable = ["H","Be","Mg","La","Ac"];
 
-const separators = value1 => {
-    for (const i in periodicTable) {
-        if (periodicTable[i] === value1) {
-            return true;
-        }
+let container = false;
+const lookingForCharacter = (value1) => { 
+    let callback = (value2) => {
+        value1 === "0" ?  container = true : container = false;
     }
-};
+    callback(value1);
+    return container;
+}
 
-exports.separators = separators;
+const noLookingForCharacter = (value1) => { 
+    let callback = (value2) => {
+        value1 !== "0" ?  container = true : container = false;
+    }
+    callback(value1);
+    return container;
+}
+
+exports.lookingForCharacter = lookingForCharacter;
+exports.noLookingForCharacter = noLookingForCharacter;
