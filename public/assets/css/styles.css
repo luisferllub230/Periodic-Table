@@ -1,0 +1,142 @@
+/*html*/
+body{
+    padding: 0;
+    margin: 0;
+    color: aliceblue;
+    background-color: #040d18; 
+    font-family: 'Roboto', sans-serif;
+}
+main{
+    display: grid;
+    place-items: center;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    font-weight: bold;
+}
+h2{
+    font-size: xx-small;
+}
+p{
+    font-size: 15px;
+    text-transform: capitalize;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    font-size: 10px;
+}
+
+/*css grid*/
+.grid-container{
+  display: grid;
+  grid-template-columns: repeat(18, 0fr);
+  row-gap: 2px;
+  column-gap: 1px;
+}
+.grid-0{
+    grid-column-start: 1;
+    grid-column-end: 18;
+}
+.grid-3, .grid-11{
+    grid-column-start: 2;
+    grid-column-end: 13;
+}
+.grid-90, .grid-105{
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+
+.grip-footer{
+    display: grid;
+    grid-template-columns: repeat(10, 0fr);
+    column-gap: 5px;
+    margin-top: 10px;
+}
+
+/*colors*/
+/*others no metal */
+.grid-0, .grid-5, .grid-6, .grid-7, .grid-14, .grid-15, .grid-33,.footerColor-0{
+    background-color: rgb(17, 252, 0);
+    color: rgb(0, 0, 0);
+}
+
+/*nobel gases*/
+.grid-1, .grid-9, .grid-17, .grid-35, .grid-53, .grid-71, .grid-89,.footerColor-1{
+    background-color: rgb(0, 122, 243);
+    color: rgb(0, 0, 0);
+}
+
+/*alkaline*/
+.grid-2, .grid-10, .grid-18, .grid-36, .grid-54, .grid-72,.footerColor-2{
+    background-color: rgb(216, 74, 255);
+    color: rgb(0, 0, 0);
+}
+
+/*alkaline earth*/
+.grid-3, .grid-11, .grid-19, .grid-37, .grid-55, .grid-73,.footerColor-3{
+    background-color: rgb(121, 37, 93);
+    color: rgb(0, 0, 0);
+}
+
+/*metalloid*/
+.grid-4, .grid-13, .grid-31, .grid-32, .grid-50, .grid-51, .grid-69,.footerColor-4{
+    background-color: rgb(171, 180, 40);
+    color: rgb(0, 0, 0);
+}
+
+/*halogen*/
+.grid-8, .grid-16, .grid-34, .grid-52, .grid-70, .grid-88,.footerColor-5{
+    background-color: rgb(42, 187, 177);
+    color: rgb(0, 0, 0);
+}
+
+/*Transitions metals*/
+.grid-20, .grid-21,.grid-22, .grid-23, .grid-24, .grid-25, .grid-26, .grid-27,.grid-28, .grid-29, .grid-38, .grid-39, .grid-40, .grid-41, .grid-42, .grid-43, .grid-44, .grid-45, .grid-46,.grid-47, .grid-57, .grid-58,.grid-59, .grid-60, .grid-61, .grid-62, .grid-63, .grid-64, .grid-65, .grid-75, .grid-76,.grid-77, .grid-78, .grid-79, .grid-80, .grid-81, .grid-82, .grid-83,.footerColor-6 {
+    background-color: rgb(151, 108, 16);
+    color: rgb(0, 0, 0);
+}
+
+/*Others metal*/
+.grid-12, .grid-30, .grid-48, .grid-66, .grid-84, .grid-49, .grid-67,.grid-85, .grid-68, .grid-86, .grid-87,.footerColor-7{
+    background-color: rgb(240, 208, 0);
+    color: rgb(0, 0, 0);
+}
+
+/*lanthanides*/
+.grid-56, .grid-90, .grid-91, .grid-92, .grid-93, .grid-94, .grid-95, .grid-96, .grid-97, .grid-98, .grid-99, .grid-100, .grid-101, .grid-102, .grid-102, .grid-103, .grid-104,.footerColor-8{
+    background-color: rgb(238, 103, 0);
+    color: rgb(0, 0, 0);
+}
+
+/*actinides*/
+.grid-74, .grid-105, .grid-106, .grid-107, .grid-108, .grid-109, .grid-110, .grid-111, .grid-112, .grid-113, .grid-114, .grid-115, .grid-116, .grid-117, .grid-118, .grid-119,.footerColor-9{
+    background-color: rgb(219, 44, 0);
+    color: rgb(0, 0, 0);
+}
+
+.colorEmpty{
+    background-color: rgb(0, 0, 0);
+    color: rgb(56, 54, 54);
+}
+
+/*box*/
+.box{
+    width: 50px;
+    height: 50px;
+    border:solid 3px #062953;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-footer{
+    width: 100px;
+    height: 100px;
+    border:solid 3px #006aeb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
