@@ -2,12 +2,6 @@ import  express  from 'express';
 import path from 'path';
 import expressHbs from 'express-handlebars';
 import routers from './routes/rout.js';
-//import periodicTable from './helpers/hbs/periodicTableLogical.js';
-//const express = require('express');
-//const path = require('path');
-//const expressHbs = require('express-handlebars');
-//const routers = require('./routes/rout');
-//const periodicTable = require('./helpers/hbs/periodicTableLogical');
 import lookingForCharacter from './helpers/hbs/periodicTableLogical.js';
 
 const app = express();
