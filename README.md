@@ -40,7 +40,11 @@
   ```
 npm install 
 ```
-  
+ 3. when the installation is finished, use this command to launched the server
+ 
+   ```
+npm start 
+```
 ------------
 
 ### - What do you need for installed this project?
