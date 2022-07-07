@@ -1,4 +1,5 @@
-const express = require('express');
+import express from 'express';
+
 const rout = express.Router();
 
 //you can edit this array.
@@ -26,4 +27,4 @@ rout.get('/', (req, res,next) => {
     });
 });
 
-module.exports = rout;
+export default rout;

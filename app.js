@@ -1,22 +1,21 @@
-const express = require('express');
-const path = require('path');
-const expressHbs = require('express-handlebars');
-const routers = require('./routes/rout');
-const periodicTable = require('./helpers/hbs/periodicTableLogical');
+import  express  from 'express';
+import path from 'path';
+import expressHbs from 'express-handlebars';
+import routers from './routes/rout.js';
+import lookingForCharacter from './helpers/hbs/periodicTableLogical.js';
 
 const app = express();
 
+const __dirname = path.resolve();
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.engine('hbs', expressHbs({
     helpers:{
-        lookingForCharacter: periodicTable.lookingForCharacter,
-        noLookingForCharacter: periodicTable.noLookingForCharacter
+        lookingForCharacter: lookingForCharacter,
     } 
 }));
 app.set('view engine','hbs');
-const viewPath = path.join(__dirname, 'views');
-app.set('views',viewPath);
+app.set('views','views');
 
 app.use(routers);
 

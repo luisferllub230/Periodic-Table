@@ -15,13 +15,13 @@
             {{#each list as |symbol key|}}
                 <!--for empty value-->
                 {{#if (lookingForCharacter symbol)}}
-                    <div class="grid-{{key}} box colorEmpty">
+                    <div class="grid-{{key}} box colorEmpty 2 loro">
                         <div class="">
                             <h2>404</h2>
                         </div>
                     </div>
                 {{else}}
-                    <div class="grid-{{key}} box">
+                    <div class="grid-{{key}} box loro">
                         <div class="">
                             <h2>{{symbol}}</h2>
                         </div>
@@ -33,11 +33,8 @@
     <footer>
         <div class="grip-footer">
             {{#each footerColor as |colors key|}}
-            <div class="box-footer footerColor-{{key}}">
-                <div class="">
-                    <P>{{colors}}</P>
-                </div>
-            </div>
+            <div class="box-footer footerColor-{{key}}"></div>
+            <div class="grip-footer-center"><P>{{colors}}</P></div>
             {{/each}}
         </div>
     </footer>
