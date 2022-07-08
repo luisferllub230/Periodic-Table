@@ -27,5 +27,5 @@ app.use('/', (req,res,next)=>{
     });
 })
 
-
-app.listen(5500);
+app.listen(process.env.PORT || 5500); //for heroku
+//app.listen(5500); not for heroku
