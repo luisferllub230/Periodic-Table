@@ -1,12 +1,11 @@
 # Periodic Table
 
-------------
-
 
 ###  -  Functionality
 
 ###### this app displays the periodic table and its use server side rendering to display the table, if one of the elements is not in the array, the table displays a box with a 404 text and change the box background for a gray color
 
+##### test the demo [HERE](https://periodic-table-lf.herokuapp.com "HERE")
 ------------
 
 ### - Technology
